@@ -47,7 +47,7 @@ General:
         # Everything in your config related to skill level requirements, skill level bonuses, etc will be multiplied by 10 when this mode is on
         # This change is purely cosmetic, it retains the old feel of mcMMO where you could level up thousands of times
     RetroMode:
-        Enabled: true
+        Enabled: false
     Locale: en_US
     MOTD_Enabled: true
     EventBroadcasts: true
@@ -82,7 +82,7 @@ General:
 ###
 Scoreboard:
     # Set this to true to enable scoreboards
-    UseScoreboards: false
+    UseScoreboards: true
     # Display player's power levels below their names?
     Power_Level_Tags: false
 
@@ -257,7 +257,7 @@ Mods:
 ###
 Items:
     Chimaera_Wing:
-        Enabled: true
+        Enabled: false
         Cooldown: 240
         Warmup: 5
         RecentlyHurt_Cooldown: 60
@@ -305,7 +305,7 @@ Party:
         Inform_All_Party_Members_On_LevelUp: false
 
         Chat_UnlockLevel: 1
-        Teleport_UnlockLevel: 2
+        Teleport_UnlockLevel: 11
         Alliance_UnlockLevel: 5
         ItemShare_UnlockLevel: 8
         XpShare_UnlockLevel: 10
@@ -423,13 +423,13 @@ Skills:
                 Item_Amount: 10
                 Summon_Amount: 1
                 Summon_Length: 240
-                Per_Player_Limit: 2
+                Per_Player_Limit: 6
             Ocelot:
                 Item_Material: COD
                 Item_Amount: 10
                 Summon_Amount: 1
                 Summon_Length: 240
-                Per_Player_Limit: 1
+                Per_Player_Limit: 20
             Horse:
                 Item_Material: APPLE
                 Item_Amount: 10
@@ -446,7 +446,7 @@ Skills:
         # of your hand. Should item pickup be disabled when your entire inventory - except for your hand - is full?
         Item_Pickup_Disabled_Full_Inventory: true
         # Any attacks made without a tool, i.e. with one's open hand, a block, etc., will count as unarmed. 
-        Items_As_Unarmed: false
+        Items_As_Unarmed: true
     Woodcutting:
         Tree_Feller_Sounds: true
         Level_Cap: 0
@@ -609,6 +609,12 @@ Bonus_Drops:
         Jungle_Log: true
         Spruce_Wood: true
         Spruce_Log: true
+        Stripped_Acacia_Log: true
+        Stripped_Birch_Log: true
+        Stripped_Dark_Oak_Log: true
+        Stripped_Oak_Log: true
+        Stripped_Jungle_Log: true
+        Stripped_Spruce_Log: true
         Mangrove_Wood: true
         Mangrove_Log: true
     Smelting:
@@ -640,7 +646,7 @@ Commands:
         # Prevents players from spamming /mctop or /mcrank
         Player_Cooldown: 1750
     mcmmo:
-        Donate_Message: true
+        Donate_Message: false
     inspect:
         Max_Distance: 30.0
     ptp:
