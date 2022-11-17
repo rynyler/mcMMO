@@ -89,7 +89,7 @@ Excavation:
         Level_Requirement:
             Standard_Mode: 15
             Retro_Mode: 150
-        Drops_From: [Clay]
+        Drops_From: [Clay, Mud]
     BUCKET:
         Amount: 1
         XP: 100
@@ -170,7 +170,7 @@ Excavation:
             Standard_Mode: 5
             Retro_Mode: 50
         Drops_From: [Dirt, Coarse_Dirt, Podzol, Grass_Block, Sand, Red_Sand, Mycelium]
-    MUSIC_DISC_13:
+    MUSIC_DISC_STAL:
         Amount: 1
         XP: 3000
         Drop_Chance: 0.05
@@ -218,7 +218,88 @@ Excavation:
             Standard_Mode: 25
             Retro_Mode: 250
         Drops_From: [Dirt, Coarse_Dirt, Podzol, Grass_Block, Sand, Red_Sand, Gravel, Clay, Mycelium, Soul_Sand, Soul_Soil]
-
+    EYE_OF_ENDER:
+        Amount: 1
+        XP: 500
+        Drop_Chance: 2.0
+        Level_Requirement:
+            Standard_Mode: 35
+            Retro_Mode: 250
+        Drops_From: [Soul_Sand, Soul_Soil]
+    STRING:
+        Amount: 1
+        XP: 200
+        Drop_Chance: 5.0
+        Level_Requirement:
+            Standard_Mode: 25
+            Retro_Mode: 250
+        Drops_From: [Clay]
+    DIAMOND_HORSE_ARMOR:
+        Amount: 1
+        XP: 400
+        Drop_Chance: 1.0
+        Level_Requirement:
+            Standard_Mode: 40
+            Retro_Mode: 250
+        Drops_From: [Clay, Mud]
+    GOAT_HORN:
+        Amount: 1
+        XP: 750
+        Drop_Chance: 2.0
+        Level_Requirement:
+            Standard_Mode: 60
+            Retro_Mode: 250
+        Drops_From: [Snow]        
+    RAW_GOLD:
+        Amount: 1
+        XP: 250
+        Drop_Chance: 3.0
+        Level_Requirement:
+            Standard_Mode: 30
+            Retro_Mode: 250
+        Drops_From: [Clay]        
+    BRICK:
+        Amount: 1
+        XP: 100
+        Drop_Chance: 5.0
+        Level_Requirement:
+            Standard_Mode: 15
+            Retro_Mode: 250
+        Drops_From: [Sand] 
+    RECOVERY_COMPASS:
+        Amount: 1
+        XP: 800
+        Drop_Chance: 2.0
+        Level_Requirement:
+            Standard_Mode: 50
+            Retro_Mode: 250
+        Drops_From: [Soul_Sand, Soul_Soil]        
+     SADDLE:
+        Amount: 1
+        XP: 500
+        Drop_Chance: 5.0
+        Level_Requirement:
+            Standard_Mode: 30
+            Retro_Mode: 250
+        Drops_From: [Clay, Mud]       
+     BOOK:
+        Amount: 1
+        XP: 200
+        Drop_Chance: 5.0
+        Level_Requirement:
+            Standard_Mode: 25
+            Retro_Mode: 250
+        Drops_From: [Sand, Red_Sand]  
+     NETHERITE_SCRAP:
+        Amount: 1
+        XP: 2000
+        Drop_Chance: 0.075
+        Level_Requirement:
+            Standard_Mode: 50
+            Retro_Mode: 250
+        Drops_From: [Soul_Sand, Soul_Soil]        
+        
+        
 #
 #  Settings for Hylian Luck
 #  If you are in retro mode, Level_Requirement is multiplied by 10.
@@ -255,7 +336,7 @@ Hylian_Luck:
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
-        Drops_From: [Flowers]
+        Drops_From: [Bushes]
     POTATO:
         Amount: 1
         XP: 0
@@ -263,8 +344,40 @@ Hylian_Luck:
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
-        Drops_From: [Flowers]
+        Drops_From: [Bushes]
+    SWEET_BERRIES:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Bushes]
+    COCOA_BEANS:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Bushes]
+    KELP:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Bushes]
     APPLE:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Flowers]
+     HONEYCOMB:
         Amount: 1
         XP: 0
         Drop_Chance: 100.0
