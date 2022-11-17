@@ -224,7 +224,7 @@ Skills:
 
         FishermansDiet:
             # This determines when Fisherman's Diet adds extra hunger recovery to food
-            RankChange: 20
+            RankChange: 15
 
         MasterAngler:
             Boat_Tick_Reduction:
@@ -292,8 +292,8 @@ Skills:
             # BlastDamageDecrease Ranks: % of damage reduced from TNT explosions
             BlastDamageDecrease:
                 Rank_1: 0.0
-                Rank_2: 0.0
-                Rank_3: 0.0
+                Rank_2: 10.0
+                Rank_3: 15.0
                 Rank_4: 25.0
                 Rank_5: 25.0
                 Rank_6: 50.0
@@ -373,7 +373,7 @@ Skills:
                 Rank_5: 50.0
                 Rank_6: 50.0
                 Rank_7: 60.0
-                Rank_8: 60.0
+                Rank_8: 70.0
             Downgrades_Enabled: true
             Downgrades_Chance:
                 Rank_1: 75.0
@@ -560,7 +560,7 @@ Skills:
         IronGrip:
             # ChanceMax: Maximum chance of preventing being disarmed
             # MaxBonusLevel: Level when the maximum chance to prevent being disarmed is reached
-            ChanceMax: 100.0
+            ChanceMax: 90.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
