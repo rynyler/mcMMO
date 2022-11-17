@@ -397,27 +397,28 @@ Enchantments_Rarity:
         PUNCH: 2
         INFINITY: 1
     MYTHIC:
-        EFFICIENCY: 5
-        UNBREAKING: 3
-        FORTUNE: 3
-        PROTECTION: 4
+        EFFICIENCY: 6
+        UNBREAKING: 4
+        FORTUNE: 4
+        PROTECTION: 5
         FIRE_PROTECTION: 4
-        FEATHER_FALLING: 4
+        FEATHER_FALLING: 5
         BLAST_PROTECTION: 4
         PROJECTILE_PROTECTION: 4
         RESPIRATION: 3
         AQUA_AFFINITY: 1
         THORNS: 3
-        SHARPNESS: 5
+        SHARPNESS: 6
         SMITE: 5
         BANE_OF_ARTHROPODS: 5
-        KNOCKBACK: 2
+        KNOCKBACK: 5
         FIRE_ASPECT: 2
-        LOOTING: 3
+        LOOTING: 4
         SILK_TOUCH: 1
-        POWER: 5
-        PUNCH: 2
+        POWER: 6
+        PUNCH: 5
         INFINITY: 1
+        MULTISHOT: 5
 Enchantment_Drop_Rates:
     Tier_1:
         COMMON: 5.00
